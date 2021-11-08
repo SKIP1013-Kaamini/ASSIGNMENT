@@ -1,0 +1,12 @@
+Enter the  yearly interest rate, for example 3.5 :
+3.5
+The yearly interest rate is :3.5
+Enter the number of years as an integer,for example 5 :
+5
+The number of years as an integer is : 5
+Enter the loan amount,for example 3000.00 :
+3000.00
+The loan amount is :3000.0
+The the number of months is : 60
+The monthly payment is : RM105.00
+The total payment is : RM6300.00
