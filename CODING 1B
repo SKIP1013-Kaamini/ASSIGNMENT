@@ -36,10 +36,10 @@ class questionB {
 		double discount;
 		
 		
-		if (total>100)//discount 10% for less then 100 and 20% for more than 100
-			discount = total*0.2;
+		if (sum>100)//discount 10% for less then 100 and 20% for more than 100
+			discount = sum*0.2;
 		else 
-			discount = total*0.1;
+			discount = sum*0.1;
 		
 		double total = (sum - discount);//deducted price
 		
