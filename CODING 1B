@@ -1,0 +1,60 @@
+package ASSIGNMENT;
+import java.util.Scanner;
+class questionB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numberitem;
+        double price1;
+        double price2;
+        double price3;
+		double quantity1;
+		double quantity2;
+		double quantity3;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the number of item :");
+		numberitem = scan.nextInt();
+		System.out.println("Enter the price of first item :");
+		price1 = scan.nextDouble();
+		System.out.println("Enter the quantity of first item :");
+		quantity1 = scan.nextDouble();
+		
+		System.out.println("Enter the price of second item :");
+		price2 = scan.nextDouble();
+		System.out.println("Enter the quantity of second item :");
+		quantity2 = scan.nextDouble();
+		
+		System.out.println("Enter the price of third item :");
+		price3 = scan.nextDouble();
+		System.out.println("Enter the quantity of third item :");
+		quantity3 = scan.nextDouble();
+		
+		double sum = ((price1*quantity1) + (price2*quantity2) + (price3*quantity3));//total price
+		double discount;
+		
+		
+		if (total>100)//discount 10% for less then 100 and 20% for more than 100
+			discount = total*0.2;
+		else 
+			discount = total*0.1;
+		
+		double total = (sum - discount);//deducted price
+		
+		System.out.printf("Total Price : RM%.2f", sum);
+		System.out.printf("\nDiscount Received : RM%.2f", discount);
+		System.out.printf("\nPrice to be paid : RM%.2f ", total);
+		
+		
+	
+		
+		
+		
+		
+		
+
+	}
+
+}
